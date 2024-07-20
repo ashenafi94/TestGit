@@ -1,0 +1,112 @@
+
+ICSMIS@ICSMIS-TRAINING MINGW64 ~
+$ cd
+
+ICSMIS@ICSMIS-TRAINING MINGW64 ~
+$ cd /c
+
+ICSMIS@ICSMIS-TRAINING MINGW64 /c
+$ ls
+'$Recycle.Bin'/             NLP_Final_Project/            Temp/
+'$WinREAgent'/              Oracle19c/                    Users/
+ Data/                      PerfLogs/                     Windows/
+'Documents and Settings'@  'Program Files'/               hiberfil.sys
+ DumpStack.log.tmp         'Program Files (x86)'/         inetpub/
+ Git/                       ProgramData/                  pagefile.sys
+ ImDisk/                    Recovery/                     swapfile.sys
+ Intel/                    'System Volume Information'/   web-projects/
+
+ICSMIS@ICSMIS-TRAINING MINGW64 /c
+$ cd git
+
+ICSMIS@ICSMIS-TRAINING MINGW64 /c/git
+$ ls
+
+ICSMIS@ICSMIS-TRAINING MINGW64 /c/git
+$ git config --global user.name "ashenafi94"
+
+ICSMIS@ICSMIS-TRAINING MINGW64 /c/git
+$ ^C
+
+ICSMIS@ICSMIS-TRAINING MINGW64 /c/git
+$ ^C
+
+ICSMIS@ICSMIS-TRAINING MINGW64 /c/git
+$ git config --global user.email ashenafibelay@gmail.com
+
+ICSMIS@ICSMIS-TRAINING MINGW64 /c/git
+$ git clone https://github.com/ashenafi94/TestGit.git
+Cloning into 'TestGit'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Receiving objects: 100% (3/3), done.
+
+ICSMIS@ICSMIS-TRAINING MINGW64 /c/git
+$ ls
+TestGit/
+
+ICSMIS@ICSMIS-TRAINING MINGW64 /c/git
+$ cd TestGit/
+
+ICSMIS@ICSMIS-TRAINING MINGW64 /c/git/TestGit (main)
+$ ls
+README.md
+
+ICSMIS@ICSMIS-TRAINING MINGW64 /c/git/TestGit (main)
+$ ls
+README.md  test.txt
+
+ICSMIS@ICSMIS-TRAINING MINGW64 /c/git/TestGit (main)
+$ git add test.txt
+
+ICSMIS@ICSMIS-TRAINING MINGW64 /c/git/TestGit (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   test.txt
+
+
+ICSMIS@ICSMIS-TRAINING MINGW64 /c/git/TestGit (main)
+$ git commit -m "first commit" test.txt
+[main 22920b4] first commit
+ 1 file changed, 1 insertion(+)
+ create mode 100644 test.txt
+
+
+ICSMIS@ICSMIS-TRAINING MINGW64 /c/git/TestGit (main)
+$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+ICSMIS@ICSMIS-TRAINING MINGW64 /c/git/TestGit (main)
+$ git commit -m "first commit" test.txt
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+ICSMIS@ICSMIS-TRAINING MINGW64 /c/git/TestGit (main)
+$ git push -u origin main
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 297 bytes | 297.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/ashenafi94/TestGit.git
+   a038131..22920b4  main -> main
+branch 'main' set up to track 'origin/main'.
+
+ICSMIS@ICSMIS-TRAINING MINGW64 /c/git/TestGit (main)
+$ ^C
+
+ICSMIS@ICSMIS-TRAINING MINGW64 /c/git/TestGit (main)
+$
